@@ -1,10 +1,13 @@
 using System;
 
-namespace WildLifeSpotter;
-public class Observation
+namespace WildLifeSpotter.Models
 {
-    public required string Location { get; set; }
-    public required DateTime Date { get; set; }
-    public string? Notes { get; set; }
-    public required Animal Animal { get; set; }
+    public class Observation
+    {
+        public required string Location { get; set; }
+        public required DateTime Date { get; set; }
+        public string? Notes { get; set; }
+        public required Animal Animal { get; set; }
+    }
 }
+

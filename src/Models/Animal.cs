@@ -1,7 +1,9 @@
 
-namespace WildLifeSpotter;
-public class Animal
+namespace WildLifeSpotter.Models
 {
-    public required string Name { get; set; }
-    public required string Species { get; set; }
+    public class Animal
+    {
+        public required string Name { get; set; }
+        public required string Species { get; set; }
+    }
 }
